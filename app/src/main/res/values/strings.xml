@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">S203867Lykkehjulet</string>
+    <string name="wrongletters">Wrong letters \n</string>
+    <string name="lives">Lives: %d</string>
+    <string name="score">Score: %d</string>
+    <string name="guess">Guess</string>
+    <string name="spin">Spin</string>
+    <string name="gameover">Game Over!</string>
+    <string name="finalScore">Final Score: %d</string>
+    <string name="exit">Exit</string>
+    <string name="playagain">Play again?</string>
+    <string name="oneletteratatime">Guess the word by typing 1 letter at a time</string>
+    <string name="duplicateletter">You\'ve already guessed this letter </string>
+    <string name="wrongGuess">Wrong guess you lose a life</string>
+    <string name="typehere">Type letter here</string>
+    <string name="spinbeforeguess">Spin before guessing</string>
+    <string name="bankrupt">BANKRUPT!!!!</string>
+
+</resources>
