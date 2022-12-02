@@ -19,7 +19,7 @@ import androidx.compose.ui.text.input.ImeAction
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import androidx.lifecycle.viewmodel.compose.viewModel
-
+/*All these functions are modified version of the unscramble app in the codelab*/
 @Composable
 fun GameScreen(
     modifier:

@@ -93,7 +93,8 @@ class GameViewModel : ViewModel() {
 
 
     }
-
+//modified function from unscramble app
+    //function for updating to view and checking wheter the user is has any lives left
     private fun updateGameState(updatedScore: Int) {
 
         if (hiddenWord.uppercase() == showWord) {
@@ -160,7 +161,8 @@ class GameViewModel : ViewModel() {
         return currentCategory
 
     }
-
+    // the picknewword functions has a functionality for going indefinetely as a category is filled
+    // it will then reset all used words so that we don't get any infinitely recursion.
     private fun pickNewWord(): String {
         this.hiddenWord = catSet.random()
         var j = 0
